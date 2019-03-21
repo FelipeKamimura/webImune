@@ -1,0 +1,33 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/BG.jpeg");
+}   
+
+.col-md-4{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.479);
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
+
+button{
+    background-color: rgba(0, 110, 255, 0.521);
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}
